@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Your Bank";
+}
+<br /><br />
+<br /><br />
+<style >
+.thumbnail{
+
+    height:400px;
+}
+
+</style>
+<div class="jumbotron top-space">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Particular", "Home")">
+                    <img src="@Url.Content("~/assets/images/particulier.jpg")"/>
+                </a>
+                <div class="caption">
+                    <h3>Particular</h3>
+                    <p>Your daily banking</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="@Url.Content("~/assets/images/business.jpg")"/>
+                </a>
+                <div class="caption">
+                    <h3>Business</h3>
+                    <p>ensure you</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="@Url.Content("~/assets/images/company.jpg")"/>
+                </a>
+                
+                <div class="caption">
+                    <h3>Entreprise</h3>
+                    <p>company solutions</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="@Url.Content("~/assets/images/loan.jpg")"/>
+                </a>
+                <div class="caption">
+                    <h3>Loans</h3>
+                    <p>Apply for a loan</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="@Url.Content("~/assets/images/accounts.jpg")"/>
+                </a>
+
+                <div class="caption">
+                    <h3>Accounts</h3>
+                    <p>Apply for a new account Now!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Index", "Home")">
+                    <img src="@Url.Content("~/assets/images/credit.jpg")"/>
+                </a>
+                <div class="caption">
+                    <h3>Credit Cards</h3>
+                    <p>Do you have one ? </p>
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+</div>
